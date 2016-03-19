@@ -4,6 +4,7 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
 html {
   font-family: sans-serif;
   /* 1 */
@@ -445,7 +446,14 @@ body {
 
 .home-wrap header {
   height: 540px;
-  background: black;
+  background-image: url(/assets/img/mountain2.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 0px 0px;
+  width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -460,19 +468,34 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between; }
 
+.home-wrap p {
+  font-family: 'Poiret One';
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  font-size: 90px;
+  font-weight: bold;
+  position: relative;
+  align-self: center;
+}
+
 .home-wrap .site-nav {
-  float: right;
-  margin: 42px 108px 0 0;
-  padding: 0; 
-  height: 10%;
+  text-align: right;
+  width: 100%;
+  display: inline-block;
+  margin: 0px 20px 0px -20px;
+  padding: 20px 0px; 
+  height: auto;
+  position: absolute;
 }
   .home-wrap .site-nav a {
     display: inline-block;
     margin-left: 28px;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.12em;
     font-size: 18px;
-    font-weight: 400;
-    font-family: Poiret One; }
+    font-weight: 600;
+    font-family: 'Poiret One'; 
+  }
   .home-wrap .site-nav a[href="#Contact"] {
     padding-left: 25px;
     padding-right: 25px;
@@ -537,6 +560,7 @@ body {
   top: 22px; }
 
 .overlay {
+  z-index: 99;
   display: block;
   position: fixed;
   /*background: greensih: #EFFFAD; pruplish one:#41418C*/
@@ -551,8 +575,9 @@ body {
           transition: opacity 0.45s, visibility 0.45s, height 0.45s;
   overflow: hidden; }
 
+
 .overlay.open {
-  opacity: 0.7;
+  opacity: 0.8;
   visibility: visible;
   height: 100%; }
 
@@ -597,7 +622,7 @@ body {
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
-  font-family: Poiret One;
+  font-family: 'Poiret One';
   font-size: 30px;
   font-weight: 400;
   text-align: center; }
@@ -668,6 +693,7 @@ body {
   opacity: 0; }
 
 .logo {
+  display: none;
   height: 65px;
   width: 65px;
   background-image: url(/assets/img/logo-jr.svg);
@@ -681,7 +707,7 @@ body {
 @media (max-width: 987px) {
   .home-wrap .site-nav {
     display: none; }
-  .logo {
+  /*.logo {
     display: block;
     -webkit-box-pack: none;
     -webkit-justify-content: none;
@@ -689,7 +715,7 @@ body {
             justify-content: none;
     width: 100px;
     text-align: center;
-    margin: 20px auto 0px auto; }
+    margin: 20px auto 0px auto; }*/
   .button_container {
     opacity: 1; }
   .button_container {
@@ -784,7 +810,7 @@ body {
     -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
             transform: translateY(-50%);
-    font-family: Poiret One;
+    font-family: 'Poiret One';
     font-size: 30px;
     font-weight: 400;
     text-align: center; }

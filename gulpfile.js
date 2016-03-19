@@ -52,16 +52,16 @@ gulp.task('browser-sync', ['sass', 'js', 'jekyll-build'], function() {
  * Compile files from _scss into both _site/css (for live injecting) and site (for future jekyll builds)
  */
 gulp.task('sass', function () {
-    return gulp.src('css/main.scss')
+    return gulp.src('assets/css/main.scss')
         .pipe(sass({
-            includePaths: [bourbon],
+            includePaths: ['css'],
             onError: browserSync.notify
         }).on('error', sass.logError))
         .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
         .pipe(rename({suffix: '.min', prefix : ''}))
 		.pipe(minifycss())
-        .pipe(gulp.dest('css'))
-        .pipe(gulp.dest('_site/css'))
+        .pipe(gulp.dest('assets/css'))
+        .pipe(gulp.dest('_site/assets/css'))
         .pipe(browserSync.reload({stream:true}));
 });
 
