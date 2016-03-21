@@ -56,14 +56,13 @@ gulp.task('sass', function () {
         .pipe(sass({
             includePaths: ['css'],
             onError: browserSync.notify
-        }).on('error', sass.logError))
+        }))
         .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
-        .pipe(rename({suffix: '.min', prefix : ''}))
-		.pipe(minifycss())
-        .pipe(gulp.dest('assets/css'))
         .pipe(gulp.dest('_site/assets/css'))
-        .pipe(browserSync.reload({stream:true}));
+        .pipe(browserSync.reload({stream:true}))
+        .pipe(gulp.dest('assets/css'));
 });
+
 
 
 /**
@@ -97,8 +96,8 @@ gulp.task('js', function() {
  * Watch html/md files, run jekyll & reload BrowserSync
  */
 gulp.task('watch', function () {
-    gulp.watch('js/**/*.js', ['js']).on("change", browserSync.reload);
-    gulp.watch('css/**', ['sass']);
+    gulp.watch('assets/js/**/*.js', ['js']).on("change", browserSync.reload);
+    gulp.watch('assets/css/**', ['sass']);
     gulp.watch(['*.html', '_layouts/*.html', '_posts/*', '_includes/*'], ['jekyll-rebuild']);
     gulp.watch('_jadefiles/*.jade', ['jade']);
 });
