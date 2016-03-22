@@ -232,8 +232,8 @@ body {
 
 .home-wrap header {
   height: 540px;
-  background-image: url(/assets/img/mountain2.jpg);
-  background-position: center top;
+  background-image: url(/assets/img/earth.jpeg);
+  background-position: center center;
   background-size: cover;
   width: 100%;
   display: -webkit-box;
@@ -250,7 +250,7 @@ body {
   -ms-flex-pack: justify;
   justify-content: space-between; }
 
-.home-wrap p {
+.home-wrap .content {
   font-family: 'Poiret One';
   text-align: center;
   width: 100%;
@@ -259,7 +259,14 @@ body {
   position: relative;
   -webkit-align-self: center;
       -ms-flex-item-align: center;
-          align-self: center; }
+          align-self: center;
+  line-height: 20%; }
+  .home-wrap .content .title {
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    color: #ad9365;
+    font-weight: bold; }
 
 .home-wrap .site-nav {
   text-align: right;
@@ -607,15 +614,24 @@ body {
     display: block; } }
 
 section.About {
-  height: 440px; }
+  height: auto;
+  background: white; }
   section.About h2 {
     color: black;
     font-weight: normal;
     font-family: 'Poiret One'; }
   section.About p {
-    font-size: 22px; }
+    font-size: 22px;
+    font-family: 'Poiret One'; }
   section.About .gold {
     color: #ad9365; }
+  section.About .line-break {
+    border: 0;
+    width: 50%;
+    margin: 30px 25% 30px 25%;
+    height: 0.5px;
+    background-image: -webkit-linear-gradient(left, transparent, #ad9365, transparent);
+    background-image: linear-gradient(to right, transparent, #ad9365, transparent); }
 
 .home-sections {
   -webkit-box-flex: 1;
