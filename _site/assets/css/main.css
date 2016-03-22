@@ -259,12 +259,14 @@ body {
   position: relative;
   -webkit-align-self: center;
       -ms-flex-item-align: center;
-          align-self: center;
-  line-height: 20%; }
-  .home-wrap .content .title {
-    font-size: 18px;
-    padding: 0;
+          align-self: center; }
+  .home-wrap .content #javier {
+    line-height: 100%;
     margin: 0;
+    display: block; }
+  .home-wrap .content #role {
+    font-size: 18px;
+    margin: 10px 0;
     color: #ad9365;
     font-weight: bold; }
 
