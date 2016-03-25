@@ -650,6 +650,7 @@ section.Work {
     font-weight: normal;
     font-family: 'Poiret One'; }
   section.Work h3 {
+    color: white;
     font-weight: normal;
     font-family: 'Poiret One'; }
   section.Work h4 {
@@ -659,6 +660,8 @@ section.Work {
     margin-top: -8px; }
   section.Work p {
     color: white; }
+  section.Work a {
+    text-decoration: none; }
   section.Work .individual-job {
     padding: 25px 0 25px 0; }
   section.Work .line-break {
@@ -668,6 +671,98 @@ section.Work {
     display: block;
     margin: auto;
     padding: 20px 0 15px 0; }
+  section.Work .links {
+    padding: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    background: #313131; }
+  section.Work a {
+    color: #797878;
+    margin: 0 20px;
+    padding: 10px 20px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    -webkit-transition: 0.3s ease-out;
+            transition: 0.3s ease-out; }
+    section.Work a .border::before {
+      width: 5px;
+      height: 5px;
+      background: transparent;
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      border-top: 2px solid #67C118;
+      border-left: 2px solid #67C118;
+      -webkit-transition: 0.3s;
+              transition: 0.3s;
+      opacity: 0; }
+    section.Work a .border::after {
+      width: 5px;
+      height: 5px;
+      background: transparent;
+      content: "";
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      border-right: 2px solid #67C118;
+      border-bottom: 2px solid #67C118;
+      -webkit-transition: 0.3s;
+              transition: 0.3s;
+      opacity: 0; }
+    section.Work a::before {
+      width: 5px;
+      height: 5px;
+      background: transparent;
+      content: "";
+      position: absolute;
+      right: 0;
+      top: 0;
+      border-right: 2px solid #67C118;
+      border-top: 2px solid #67C118;
+      -webkit-transition: 0.3s;
+              transition: 0.3s;
+      opacity: 0; }
+    section.Work a::after {
+      width: 5px;
+      height: 5px;
+      background: transparent;
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      border-left: 2px solid #67C118;
+      border-bottom: 2px solid #67C118;
+      -webkit-transition: 0.3s;
+              transition: 0.3s;
+      opacity: 0; }
+    section.Work a:hover {
+      color: #ad9365; }
+      section.Work a:hover::before {
+        opacity: 1;
+        right: 5px;
+        top: 5px; }
+      section.Work a:hover::after {
+        opacity: 1;
+        left: 5px;
+        bottom: 5px; }
+      section.Work a:hover .border::before {
+        opacity: 1;
+        left: 5px;
+        top: 5px; }
+      section.Work a:hover .border::after {
+        opacity: 1;
+        right: 5px;
+        bottom: 5px; }
+      section.Work a:hover .border h3 {
+        color: #ad9365;
+        -webkit-transition: 0.3s all;
+                transition: 0.3s all; }
+      section.Work a:hover .border h4 {
+        color: white;
+        -webkit-transition: 0.3s all;
+                transition: 0.3s all; }
 
 .home-sections {
   -webkit-box-flex: 1;
