@@ -44,10 +44,16 @@ section.Work
     box-sizing: border-box
     text-align: center
     background: #313131
-
+    
+  button
+    background: transparent
+    border: none
+    cursor: pointer
+    &:focus
+      outline: 0
   //link-effects------------------------------------------
   .link-effect
-  a
+  button
     color: #797878
     margin: 0 20px
     padding: 10px 20px
@@ -64,8 +70,8 @@ section.Work
         position: absolute
         left: 0
         top: 0
-        border-top: 2px solid #67C118
-        border-left: 2px solid #67C118
+        border-top: 2px solid red
+        border-left: 2px solid red
         transition: 0.3s
         opacity: 0
       &::after
@@ -76,8 +82,8 @@ section.Work
         position: absolute
         right: 0
         bottom: 0
-        border-right: 2px solid #67C118
-        border-bottom: 2px solid #67C118
+        border-right: 2px solid red
+        border-bottom: 2px solid red
         transition: 0.3s
         opacity: 0
     &::before
@@ -88,8 +94,8 @@ section.Work
       position: absolute
       right: 0
       top: 0
-      border-right: 2px solid #67C118
-      border-top: 2px solid #67C118
+      border-right: 2px solid red
+      border-top: 2px solid red
       transition: 0.3s
       opacity: 0
     &::after
@@ -100,8 +106,8 @@ section.Work
       position: absolute
       left: 0
       bottom: 0
-      border-left: 2px solid #67C118
-      border-bottom: 2px solid #67C118
+      border-left: 2px solid red
+      border-bottom: 2px solid red
       transition: 0.3s
       opacity: 0
     &:hover
@@ -129,3 +135,4 @@ section.Work
         h4
           color: white
           transition: 0.3s all
+
