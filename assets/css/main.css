@@ -474,8 +474,8 @@ body {
     opacity: 1;
     opacity: 1;
     position: fixed;
-    top: 40px;
-    right: 40px;
+    top: 30px;
+    right: 30px;
     height: 27px;
     width: 35px;
     cursor: pointer;
@@ -805,6 +805,9 @@ section.Work {
     color: black;
     text-decoration: none;
     cursor: pointer; }
+  @media (max-width: 736px) {
+    section.Work .modal-content {
+      margin: 30% auto; } }
 
 .home-sections {
   -webkit-box-flex: 1;
