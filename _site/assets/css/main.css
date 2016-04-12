@@ -663,7 +663,35 @@ section.Work {
     font-weight: normal;
     margin-top: -8px; }
   section.Work p {
-    color: white; }
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-family: futura-pt;
+    font-size: 14px; }
+  section.Work ul {
+    list-style-type: none;
+    margin-right: 65px;
+    margin-left: 70px;
+    text-align: left; }
+    section.Work ul li {
+      font-family: 'futura-pt', 'monospace';
+      font-size: 16px;
+      margin-bottom: 15px;
+      position: relative;
+      padding-left: 25px;
+      margin-top: 15px;
+      line-height: 1.5; }
+    section.Work ul li:before {
+      font-family: 'FontAwesome';
+      content: "\f06d";
+      position: absolute;
+      color: #C400FF;
+      left: 0; }
+  section.Work #davis-modal h2 {
+    padding-left: 35px; }
+  section.Work #davis-modal ul li:before {
+    color: #e00606; }
   section.Work a {
     text-decoration: none; }
   section.Work .individual-job {
@@ -781,23 +809,24 @@ section.Work {
     top: 0;
     width: 100%;
     height: 100%;
-    overflow: auto;
+    overflow: hidden;
     background-color: black;
-    background-color: rgba(0, 0, 0, 0.4); }
+    background-color: rgba(0, 0, 0, 0.6); }
   section.Work .modal-content {
     background-color: #FDFFF2;
     margin: 15% auto;
     border: 1px solid #888;
-    width: 60%; }
+    width: 60%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0; }
     section.Work .modal-content p {
       color: black; }
     section.Work .modal-content h2 {
       background: rgba(0, 0, 0, 0.03);
       padding: 10px 0;
       color: #ad9365;
-      letter-spacing: 0.02em; }
+      letter-spacing: 0.04em; }
     section.Work .modal-content .modal-body {
-      padding: 20px; }
+      padding: 0 20px 20px 20px; }
   section.Work .close {
     color: #ad9365;
     float: right;
@@ -874,13 +903,14 @@ section.Work {
     width: auto; } }
 
 section.Testimonial {
-  background: #FFFBF0;
+  background: #FFFBF0 url(/assets/img/quote.png) 20% 50% fixed no-repeat;
   height: auto; }
   section.Testimonial .col-1 {
     background: none; }
   section.Testimonial p {
-    font-family: Poiret One;
-    font-size: 16px; }
+    font-family: futura-pt;
+    font-size: 16px;
+    font-weight: lighter; }
   section.Testimonial .position {
     float: right;
     margin-top: 15px;
