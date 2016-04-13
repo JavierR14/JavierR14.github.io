@@ -1,10 +1,30 @@
 section.Projects
   height: auto
   padding: 0
+  h2
+    color: black
+    font-weight: normal
+    font-family: 'Poiret One'
+    margin-top: 50px
+
+  .line-break
+    width: 15%
+    margin: 30px 42% 30px 42%
+
   .project-one
-    height: 350px
-    background: blue
+    height: 385px
+    background: url(/assets/img/nym-in.png)
+    background-size: cover
+    background-position: left 100px center
+
+  @media (max-width: 730px)
+    .project-one
+      background-position: left 0px center
+
   .col-50
-    height: 350px
+    height: 385px
   .project-two
-    background: green
+    background: url(/assets/img/website.png)
+    background-size: cover
+    background-position: center center
+    left: 60px;

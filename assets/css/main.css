@@ -903,7 +903,7 @@ section.Work {
     width: auto; } }
 
 section.Testimonial {
-  background: #FFFBF0 url(/assets/img/quote.png) 20% 50% fixed no-repeat;
+  background: #f4f0ed url(/assets/img/quote.svg) 20% 50% fixed no-repeat;
   height: auto; }
   section.Testimonial .col-1 {
     background: none; }
@@ -919,10 +919,30 @@ section.Testimonial {
 section.Projects {
   height: auto;
   padding: 0; }
+  section.Projects h2 {
+    color: black;
+    font-weight: normal;
+    font-family: 'Poiret One';
+    margin-top: 50px; }
+  section.Projects .line-break {
+    width: 15%;
+    margin: 30px 42% 30px 42%; }
   section.Projects .project-one {
-    height: 350px;
-    background: blue; }
+    height: 385px;
+    background: url(/assets/img/nym-in.png);
+    background-size: cover;
+    background-position: left 100px center;
+    -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease; }
+  @media (max-width: 730px) {
+    section.Projects .project-one {
+      background-position: left 0px center;
+      -webkit-transition: all 0.5s ease;
+              transition: all 0.5s ease; } }
   section.Projects .col-50 {
-    height: 350px; }
+    height: 385px; }
   section.Projects .project-two {
-    background: green; }
+    background: url(/assets/img/website.png);
+    background-size: cover;
+    background-position: center center;
+    left: 60px; }
