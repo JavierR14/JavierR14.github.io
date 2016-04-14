@@ -923,26 +923,76 @@ section.Projects {
     color: black;
     font-weight: normal;
     font-family: 'Poiret One';
-    margin-top: 50px; }
+    padding-top: 50px; }
+  section.Projects .github {
+    height: 150px; }
+  section.Projects a {
+    font-family: Poiret One;
+    font-size: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 6;
+    border: 2px solid #ad9365;
+    color: #ad9365; }
+    section.Projects a:hover {
+      color: #FFF;
+      background: #ad9365;
+      -webkit-transition: all 0.1s ease-in-out;
+      transition: all 0.1s ease-in-out; }
   section.Projects .line-break {
     width: 15%;
     margin: 30px 42% 30px 42%; }
   section.Projects .project-one {
-    height: 385px;
+    height: 480px;
     background: url(/assets/img/nym-in.png);
     background-size: cover;
     background-position: left 100px center;
     -webkit-transition: all 0.5s ease;
             transition: all 0.5s ease; }
+  section.Projects .content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: none;
+    -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease; }
+    section.Projects .content h2 {
+      padding-top: 25px;
+      color: white;
+      font-family: Poiret One;
+      font-size: 70px; }
+    section.Projects .content:hover {
+      opacity: 1;
+      background: rgba(0, 0, 0, 0.7);
+      background: -webkit-linear-gradient(top left, rgba(52, 73, 94, 0.8), rgba(204, 96, 85, 0.8));
+      background: linear-gradient(to bottom right, rgba(52, 73, 94, 0.8), rgba(204, 96, 85, 0.8)); }
+  @media (max-width: 1420px) {
+    section.Projects .project-one {
+      height: 385px;
+      -webkit-transition: all 0.5s ease;
+              transition: all 0.5s ease; }
+    section.Projects .col-50 {
+      height: 450px;
+      -webkit-transition: all 0.5s ease;
+              transition: all 0.5s ease; } }
   @media (max-width: 730px) {
     section.Projects .project-one {
       background-position: left 0px center;
       -webkit-transition: all 0.5s ease;
               transition: all 0.5s ease; } }
   section.Projects .col-50 {
-    height: 385px; }
+    height: 385px;
+    -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease; }
   section.Projects .project-two {
     background: url(/assets/img/website.png);
     background-size: cover;
     background-position: center center;
     left: 60px; }
+  section.Projects .project-three {
+    background: url(/assets/img/mandel1.gif);
+    background-size: cover;
+    background-position: center center; }

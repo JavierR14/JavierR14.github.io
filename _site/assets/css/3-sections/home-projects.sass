@@ -5,26 +5,73 @@ section.Projects
     color: black
     font-weight: normal
     font-family: 'Poiret One'
-    margin-top: 50px
+    padding-top: 50px
+
+  .github
+    height: 150px
+
+  a
+    font-family: Poiret One
+    font-size: 25px
+    padding-left: 25px
+    padding-right: 25px
+    padding-top: 5px
+    padding-bottom: 5px
+    line-height: 6
+    border: 2px solid #ad9365
+    color: #ad9365
+    &:hover
+      color: #FFF
+      background: #ad9365
+      -webkit-transition: all 0.1s ease-in-out
+      transition: all 0.1s ease-in-out 
 
   .line-break
     width: 15%
     margin: 30px 42% 30px 42%
 
   .project-one
-    height: 385px
+    height: 480px
     background: url(/assets/img/nym-in.png)
     background-size: cover
     background-position: left 100px center
+    transition: all 0.5s ease;
+  .content
+    position: relative
+    width: 100%
+    height: 100%
+    opacity: 0
+    background: none
+    transition: all 0.5s ease
+    h2
+      color: white
+    &:hover
+      opacity: 1
+      background: rgba(0,0,0,0.7)
+      background: linear-gradient(to bottom right, rgba(52,73,94,0.8), rgba(204,96,85,0.8));
+  @media (max-width: 1420px)
+    .project-one
+      height: 385px
+      transition: all 0.5s ease;
+    .col-50
+      height: 450px
+      transition: all 0.5s ease;
 
   @media (max-width: 730px)
     .project-one
       background-position: left 0px center
+      transition: all 0.5s ease;
 
   .col-50
     height: 385px
+    transition: all 0.5s ease;
   .project-two
     background: url(/assets/img/website.png)
     background-size: cover
     background-position: center center
     left: 60px;
+
+  .project-three
+    background: url(/assets/img/mandel1.gif)
+    background-size: cover
+    background-position: center center
