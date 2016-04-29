@@ -1,6 +1,7 @@
 section.Projects
   height: auto
   padding: 0
+  background: #FFFCF6
   h2
     color: black
     font-weight: normal
@@ -35,6 +36,7 @@ section.Projects
     background-size: cover
     background-position: left 100px center
     transition: all 0.5s ease;
+
   .content
     position: relative
     width: 100%
@@ -47,7 +49,7 @@ section.Projects
       position: absolute
       bottom: 0
       left: 0
-      margin: 0 25% 30px 25%
+      margin: 0 20% 30px 20%
       padding: 30px
       border: 3px solid white
       font-size: 24px
@@ -71,13 +73,29 @@ section.Projects
       font-size: 16px
     &:hover
       opacity: 1
-      background: rgba(0,0,0,0.7)
-      background: linear-gradient(to bottom right, rgba(52,73,94,0.8), rgba(204,96,85,0.8));
+      background: linear-gradient(to bottom right, rgba(52,73,94,0.8), rgba(204,96,85,0.8))
       transition: all 0.35s ease-in-out
       p
         transform: scale3d(1,1,1)
         opacity: 1
         transition: opacity 0.35s, transform 0.35s
+  .web
+    &:hover
+      background: linear-gradient(to bottom right, rgba(69, 69, 155,0.85), rgba(200, 132, 7,0.85))
+      transition: all 0.35s ease-in-out
+
+  .mandel
+    &:hover
+      background: linear-gradient(to bottom right, rgba(2, 145, 50,0.8), rgba(96, 96, 167,0.8))
+      transition: all 0.35s ease-in-out
+
+  @media (max-width: 1000px)
+    .content
+      p
+        font-size: 16px
+        margin: 0 10% 30px 10%
+        padding: 25px
+
   @media (max-width: 1420px)
     .project-one
       height: 385px
@@ -97,6 +115,7 @@ section.Projects
   .col-50
     height: 385px
     transition: all 0.5s ease;
+
   .project-two
     background: url(/assets/img/website.png)
     background-size: cover

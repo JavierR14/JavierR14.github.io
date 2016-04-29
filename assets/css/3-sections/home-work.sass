@@ -9,6 +9,7 @@ section.Work
     color: white
     font-weight: normal
     font-family: 'Poiret One'
+    transition: all 0.5s ease
 
   h3
     color: white
@@ -183,11 +184,15 @@ section.Work
 
   /* Modal Content/Box */
   .modal-content
+    position: fixed
     background-color: #FDFFF2    /*#FFFCF6*/
-    margin: 15% auto /* 15% from the top and centered */
     border: 1px solid #888
-    width: 60% /* Could be more or less, depending on screen size */
+    width: 60%
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0
+    /* Hackish way of vertically aligning fixed div */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     p
       color: black
     h2
@@ -198,6 +203,29 @@ section.Work
     .modal-body
       padding: 0 20px 20px 20px
 
+  .plus
+    position: relative
+    top: 6px 
+    color: #e00606
+    margin: 0 -10px
+
+  @media(max-width: 840px)
+    .modal
+      overflow: auto
+    .modal-content
+      position: relative
+      width: 80%
+      top: 0
+      left: 0
+      transform: none
+      margin: 30% auto
+      ul 
+        margin-right: 20px
+        margin-left: 20px
+        text-align: left
+      p
+        font-size: 12px
+  
   /* The Close Button */
   .close 
     color: #ad9365
@@ -215,8 +243,13 @@ section.Work
     text-decoration: none
     cursor: pointer
     transition: 0.2s all
-  
-  @media (max-width: 736px)
-    .modal-content
-      margin: 30% auto
+
+  @media(max-width: 670px)
+    h2
+      font-size: 24px
+      transition: all 0.5s ease
+    .close
+      font-size: 26px
+    .plus
+      top: 3px
 

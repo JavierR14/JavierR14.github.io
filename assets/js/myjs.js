@@ -99,6 +99,9 @@ $(function(){
           modal_freelance.style.display = "none";
       }
   }
+
+  var contactform =  document.getElementById('contactform');
+  contactform.setAttribute('action', '//form' + 'spree.io/' + 'javier141196' + '@' + 'yahoo' + '.' + 'ca');
 });
 
 

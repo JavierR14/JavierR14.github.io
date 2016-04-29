@@ -63,7 +63,6 @@
 		<p id="javier">javier <span style="color: #ad9365">ruiz</span></p>
 		<p id="role">Software <span style="color: white">Developer</span></p>
 	</div>
-	
 	<!--Optional
 	<a href="mailto:javi141196@hotmail.com" class="email-link">+emailme</a>-->
 
@@ -82,8 +81,9 @@
         Hey there, I see you've stumbled upon my website! I'm <span style="color: red">Javier</span>. A 19 year old Software Developer currently studying Computer Science
         at the University of Waterloo. My interest in both <span class="gold">Software</span> and <span class="gold">Web</span> development stemmed from my 
         fascination with computers and video games from a very early age. I have a strong passion for 
-        developing innovative software and creating unforgettable user experiences. I also mingle with Graphic Design from time to time.
+        developing innovative software and creating unforgettable user experiences. I also like to mingle with Graphic Design from time to time.
       </p>
+      <a href="https://github.com/JavierR14" target="_blank">Resume</a>
     </div>
   </div>
 </section>
@@ -107,7 +107,7 @@
         <!-- Modal content -->
         <div class="modal-content">
           <span id="close-2" class='close'>x</span>
-          <h2>Davis <span style="position: relative;top:6px; color: #e00606; margin: 0 -10px">+</span> Henderson</h2>
+          <h2>Davis <span class="plus">+</span> Henderson</h2>
           <div class="modal-body">
             <p>Software Developer <span style="margin: 0 7px; color: #ad9365">||</span> May 2015 - Aug 2015</p>
             <ul>
@@ -203,17 +203,19 @@
   <div class="flex flex--center">
     <div class="col-50 project-two">
       <a href="https://github.com/JavierR14/JavierR14.github.io" target="_blank">
-        <div class="content square">
+        <div class="content square web">
           <h2>ruizjavier.com</h2>
-          <p>Javascript, Node, CSS, HTML, Firebase, Qt <br> UofT Hackathon winner. A ticket purchasing app for the Nymi band. Walk in and out of places effortlessly.</p>
+          <h4>HTML, Sass, Javascript, Jekyll, Gulp</h4>
+          <p>My Personal Website where I showcase my experience, projects, and a little bit about my life</p>
         </div>
       </a> 
     </div>
     <div class="col-50 project-three">
       <a href="https://github.com/JavierR14/Mandelbrot-Set" target="_blank">
-        <div class="content square">
+        <div class="content square mandel">
           <h2>Mandlebrot</h2>
-          <p>Javascript, Node, CSS, HTML, Firebase, Qt <br> UofT Hackathon winner. A ticket purchasing app for the Nymi band. Walk in and out of places effortlessly.</p>
+          <h4>Python, pygame</h4>
+          <p>Graphic generation of the Mandelbrot Set. Optimized it to generate within 13 seconds</p>
         </div>
       </a>
     </div>
@@ -223,7 +225,25 @@
   </div>
   
 </section>
-        <section>
+        <section class="Contact">
+  <div class="flex flex--center">
+    <div class="col-2">
+      <h2><span class="gold">Contact</span> Me</h2>
+      <hr class="line-break">
+      <p>*Currently looking for a Fall 2016 internship*</p>
+      <h3>Feel Free to <span style='color: #ad9365'>Say Hello!</span></h3>
+      <form id='contactform' method="POST">
+        <input type="text" name="name" placeholder="Name">
+        <input type="text" name="email" placeholder="Email">
+        <textarea class="message" name="message" placeholder="Your Message"></textarea>
+        <input type="submit" class="send" value="Send">
+        <input type="hidden" name="_next" value="javierr14.github.io" />
+        <input type="text" name="_gotcha" style="display:none" />
+      </form>
+    </div>
+  </div>
+</section>
+        <!--<section>
     <div class="flex flex--center">
         <div class="col-1">
             <p>
@@ -280,7 +300,7 @@
       </p>
     </div>
   </div>
-</section>
+</section>-->
 
 		<!--all the sections here-->
 		<div style="height: 2000px"></div>
