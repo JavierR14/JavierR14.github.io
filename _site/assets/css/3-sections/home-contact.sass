@@ -1,5 +1,9 @@
 section.Contact
   background: white
+  #section
+    padding: 0
+    line-height: 0
+    border: none
   h2
     color: black
     font-weight: normal
@@ -56,4 +60,24 @@ section.Contact
       color: #FFF
       background: #ad9365
       -webkit-transition: all 0.1s ease-in-out
-      transition: all 0.1s ease-in-out 
+      transition: all 0.1s ease-in-out
+  .fa-3x
+    color: #878787
+    padding: 10px
+    margin: 5px 25px 10px 25px
+    transition: all 0.1s ease-in-out
+    &:hover
+      transition: all 0.2s ease-in-out
+      transform: scale(1.1,1.1)
+  .fa-linkedin
+    &:hover
+      color: blue
+  .fa-twitter
+    &:hover
+      color: #55acee
+  .fa-github
+    &:hover
+      color: black
+  @media(max-width: 350px)
+    .fa-3x
+      display: table-cell

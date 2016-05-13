@@ -1,5 +1,5 @@
+var oddClick = true;
 $(function(){
-    var oddClick = true;
     $('.button_container').css({
         display: 'none'
     });
@@ -9,6 +9,7 @@ $(function(){
     oddClick ? disableScroll() : enableScroll();
     oddClick = !oddClick
   });
+
 
   //disable nav
   // left: 37, up: 38, right: 39, down: 40,
@@ -102,6 +103,30 @@ $(function(){
 
   var contactform =  document.getElementById('contactform');
   contactform.setAttribute('action', '//form' + 'spree.io/' + 'javier141196' + '@' + 'yahoo' + '.' + 'ca');
+  
+  $(function(){
+    $('.test').click(function(){
+        $("#toggle").removeClass("active");
+        $("#overlay").removeClass("open");
+        enableScroll();
+        oddClick = !oddClick
+    });
+  });
 });
 
+// Autoscroll
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
 

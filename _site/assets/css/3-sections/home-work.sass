@@ -5,6 +5,11 @@ section.Work
   width: 100%
   height: auto
 
+  #section
+    padding: 0
+    line-height: 0
+    border: none
+       
   h2
     color: white
     font-weight: normal
@@ -34,6 +39,7 @@ section.Work
     margin-right: 65px
     margin-left: 70px
     text-align: left
+    color: #4f4f4f
     
     li
       font-family: 'futura-pt', 'monospace'
@@ -45,9 +51,9 @@ section.Work
       line-height: 1.5
     li:before  
       font-family: 'FontAwesome'
-      content: "\f06d"
+      content: "\f249"
       position: absolute
-      color: #C400FF
+      color: #55acee
       left: 0
 
   #davis-modal
@@ -56,6 +62,10 @@ section.Work
     ul
       li:before
         color: #e00606
+  #joist-modal
+    ul
+      li:before
+        color: #67C118
   a
     text-decoration: none
 
@@ -185,9 +195,10 @@ section.Work
   /* Modal Content/Box */
   .modal-content
     position: fixed
-    background-color: #FDFFF2    /*#FFFCF6*/
+    background-color: #FFFFFF    /*#FFFCF6*/
     border: 1px solid #888
     width: 60%
+    color: #4f4f4f
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0
     /* Hackish way of vertically aligning fixed div */
     top: 50%;

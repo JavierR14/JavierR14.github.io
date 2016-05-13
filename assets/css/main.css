@@ -446,7 +446,7 @@ body {
   .overlay nav {
     position: relative;
     height: 70%;
-    top: 45%;
+    top: 60%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     font-family: 'Poiret One';
@@ -612,7 +612,7 @@ body {
     .overlay nav {
       position: relative;
       height: 70%;
-      top: 45%;
+      top: 60%;
       -webkit-transform: translateY(-50%);
       transform: translateY(-50%);
       font-family: 'Poiret One';
@@ -680,6 +680,10 @@ section.About {
   height: auto;
   background: white;
   padding: 35px 0; }
+  section.About #section {
+    padding: 0;
+    line-height: 0;
+    border: none; }
   section.About h2 {
     color: black;
     font-weight: normal;
@@ -722,6 +726,10 @@ section.Work {
   /* The Modal (background) */
   /* Modal Content/Box */
   /* The Close Button */ }
+  section.Work #section {
+    padding: 0;
+    line-height: 0;
+    border: none; }
   section.Work h2 {
     color: white;
     font-weight: normal;
@@ -748,7 +756,8 @@ section.Work {
     list-style-type: none;
     margin-right: 65px;
     margin-left: 70px;
-    text-align: left; }
+    text-align: left;
+    color: #4f4f4f; }
     section.Work ul li {
       font-family: 'futura-pt', 'monospace';
       font-size: 16px;
@@ -759,14 +768,16 @@ section.Work {
       line-height: 1.5; }
     section.Work ul li:before {
       font-family: 'FontAwesome';
-      content: "\f06d";
+      content: "\f249";
       position: absolute;
-      color: #C400FF;
+      color: #55acee;
       left: 0; }
   section.Work #davis-modal h2 {
     padding-left: 35px; }
   section.Work #davis-modal ul li:before {
     color: #e00606; }
+  section.Work #joist-modal ul li:before {
+    color: #67C118; }
   section.Work a {
     text-decoration: none; }
   section.Work .individual-job {
@@ -889,9 +900,10 @@ section.Work {
     background-color: rgba(0, 0, 0, 0.6); }
   section.Work .modal-content {
     position: fixed;
-    background-color: #FDFFF2;
+    background-color: #FFFFFF;
     border: 1px solid #888;
     width: 60%;
+    color: #4f4f4f;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0;
     /* Hackish way of vertically aligning fixed div */
     top: 50%;
@@ -972,6 +984,10 @@ section.Projects {
   height: auto;
   padding: 0;
   background: #FFFCF6; }
+  section.Projects #section {
+    padding: 0;
+    line-height: 0;
+    border: none; }
   section.Projects h2 {
     color: black;
     font-weight: normal;
@@ -1095,12 +1111,16 @@ section.Projects {
     background-position: center center;
     left: 60px; }
   section.Projects .project-three {
-    background: url(/assets/img/mandel1.gif);
+    background: url(/assets/img/mandel1.png);
     background-size: cover;
     background-position: center center; }
 
 section.Contact {
   background: white; }
+  section.Contact #section {
+    padding: 0;
+    line-height: 0;
+    border: none; }
   section.Contact h2 {
     color: black;
     font-weight: normal;
@@ -1153,3 +1173,23 @@ section.Contact {
       background: #ad9365;
       -webkit-transition: all 0.1s ease-in-out;
       transition: all 0.1s ease-in-out; }
+  section.Contact .fa-3x {
+    color: #878787;
+    padding: 10px;
+    margin: 5px 25px 10px 25px;
+    -webkit-transition: all 0.1s ease-in-out;
+            transition: all 0.1s ease-in-out; }
+    section.Contact .fa-3x:hover {
+      -webkit-transition: all 0.2s ease-in-out;
+              transition: all 0.2s ease-in-out;
+      -webkit-transform: scale(1.1, 1.1);
+              transform: scale(1.1, 1.1); }
+  section.Contact .fa-linkedin:hover {
+    color: blue; }
+  section.Contact .fa-twitter:hover {
+    color: #55acee; }
+  section.Contact .fa-github:hover {
+    color: black; }
+  @media (max-width: 350px) {
+    section.Contact .fa-3x {
+      display: table-cell; } }
