@@ -1,25 +1,289 @@
----
-layout: default
-title: Javier Ruiz
----
-<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Javier Ruiz</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="/assets/css/main.css">
+  </head>
+  <body>
+
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script src="assets/js/myjs.js"></script>
-<!-- Typekit font load--> 
+<!-- Typekit font load-->
 <script src="//use.typekit.net/mxz4qjh.js"></script>
 <script>try{Typekit.load();}catch(e){}</script>
 <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css"> -->
 <script src="https://use.fontawesome.com/85f6cf8370.js"></script>
 
 <div class="home-wrap">
-	{% include header.html %}
+	<script src="../assets/js/test.js"></script>
+
+<div class="mobile-nav">
+	<!--NAV BAR!-->
+	<div class="overlay" id="overlay">
+		<nav class="overlay-menu">
+			<ul>
+				<li><a class='test' href="#Home">Home</a></li>
+				<li><a class='test' href="#About">About</a></li>
+				<li><a class='test' href="#Work">Work</a></li>
+				<!-- <li><a href="#Skills">Skills</a></li> -->
+				<li><a class='test' href="#Projects">Projects</a></li>
+				<!-- <li><a href="#Blog">Blog</a></li> -->
+				<!-- <li><a href="#Life">Life</a></li> -->
+				<li><a class='test' href="#Contact">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+
+
+	<!--Hamburger-->
+	<div class="button_container" id="toggle">
+		<span class="top"></span>
+		<span class="middle"></span>
+		<span class="bottom"></span>
+	</div>
+</div>
+<a id="section" name='Home'>
+<header>
+	<div class="logo"></div>
+
+	<nav class="site-nav">
+
+		<a href="#About">About</a>
+		<a href="#Work">Work</a>
+		<!-- <a href="#Skills">Skills</a> -->
+		<a href="#Projects">Projects</a>
+		<!-- <a href="#Blog">Blog</a> -->
+		<!-- <a href="#Life">Life</a> -->
+		<a href="#Contact">Contact</a>
+
+	</nav>
+	<div class = 'content'>
+		<p id="javier">javier <span style="color: #ad9365">ruiz</span></p>
+		<p id="role">Software <span style="color: white">Developer</span></p>
+	</div>
+	<!--Optional
+	<a href="mailto:javi141196@hotmail.com" class="email-link">+emailme</a>-->
+
+</header>
+
+
 
 	<div class="home-sections">
 
-		    {% include section-about.html %}
-        {% include section-work.html %}
-        {% include section-testimonial.html %}
-        {% include section-projects.html %}
-        {% include section-contact.html %}
-        <!--{% include columns.html %}-->
-	</div>	
+		    <a id="section" name='About'>
+<section class="About">
+  <div class="flex flex--center">
+    <div class="col-2">
+      <h2>A <span class="gold">brief</span> background</h2>
+      <hr class="line-break">
+      <p class="common">
+        Hey there, I see you've stumbled upon my website! I'm <span style="color: red">Javier</span>. A 20 year old Software Developer currently studying Computer Science
+        at the University of Waterloo. My interest in <span class="gold">Software</span> development stemmed from my
+        fascination with computers and video games from a very early age. I have a strong passion for
+        developing innovative software and creating unforgettable user experiences. I also like to mingle with Graphic Design from time to time.
+      </p>
+      <a href="/assets/Resume_2017.pdf" target="_blank">Resume</a>
+    </div>
+  </div>
+</section>
+        <a id="section" name='Work'>
+<section name='Work' class="Work">
+  <div class="flex flex--center">
+    <div class="col-2">
+      <!-- The Modal -->
+      <div id="px-modal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span id="close-4" class='close'>x</span>
+          <h2>500px</h2>
+          <div class="modal-body">
+            <p>Full-Stack Software Developer<span style="margin: 0 7px; color: #ad9365">||</span> Sep 2016 - Dec 2016</p>
+            <ul>
+              <li>Built and documented multiple APIs, including a highly-scalable photographer search API with object-based searching to be used by over 9 million users</li>
+              <li>Took lead on reducing security vulnerabilities by creating new two-factor authentication flows</li>
+              <li>Integrated the rescheduling component to a new calendar system after analyzing several best practices</li>
+              <li>Improved the error handling system for failed Paypal payments on Marketplace</li>
+              <li>Implemented tracking and analytics functionalities to feature launches using the Google Analytics API</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div id="joist-modal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span id="close-1" class='close'>x</span>
+          <h2>Joist</h2>
+          <div class="modal-body">
+            <p>Full-Stack Software Engineer <span style="margin: 0 7px; color: #ad9365">||</span> Jan 2016 - April 2016</p>
+            <ul>
+              <li>Created a Web service as a Rails Engine to import, validate, manage, and export leads to a CRM platform in real-time; Improved lead to customer conversion by 20%</li>
+              <li>Implemented PDF localization for Invoices and Estimates on all platforms (iOS, Web, Android)</li>
+              <li>Created the help center component of the Android app using Kotlin</li>
+          </div>
+        </div>
+      </div>
+
+      <!-- The Modal -->
+      <div id="davis-modal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span id="close-2" class='close'>x</span>
+          <h2>Davis <span class="plus">+</span> Henderson</h2>
+          <div class="modal-body">
+            <p>Software Developer <span style="margin: 0 7px; color: #ad9365">||</span> May 2015 - Aug 2015</p>
+            <ul>
+              <li>Developed a database automation build and deployment system with support for continuous integration and incremental deployment; reduced deployment time by 70%</li>
+              <li>Restructured 60% of the company's databases and integrated them into Team Foundation Server</li>
+              <li>Created multiple Python, Batch, and SQL scripts to be used for text, data, and file manipulation during automation builds</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- The Modal -->
+      <div id="freelance-modal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span id="close-3" class='close'>x</span>
+          <h2>Freelance</h2>
+          <div class="modal-body">
+            <p>Motion Graphic Designer <span style="margin: 0 7px; color: #ad9365">||</span> Feb 2011 - Aug 2013</p>
+            <ul>
+              <li>Designed and animated custom 5-30 second animations matching client specifications using Cinema 4D, Photoshop, and Adobe After Effects</li>
+              <li>Analyzed and discussed product specifications with clients to achieve optimum quality and full customer satisfaction</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+      <h2><span class="gold">Work</span> Experience</h2>
+      <!-- line-break -->
+     <!--  <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" width="177" height="37" viewBox="0 0 177 37">
+        <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAALEAAAAlCAMAAAA6APiiAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAbFBMVEUAAACtk2Wtk2Wtk2Wtk2Wtk2VXSjMAAABQRC8AAAAAAAAAAAAAAAAAAAAAAAAAAACtk2Wtk2Wtk2VtXUAAAACTfVajil8hHBMAAABnWDyljGBoWD2PelStk2Wtk2Wfh10AAACfh10AAAAAAADSMSMbAAAAI3RSTlMAIawikAwMCg0UHBobEAgE1cyrEwEomB8GOZYKKY8GJQckGb1TezYAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAABCklEQVRYw9XS2Q6CQAwFUFAWYQQVEYYd/f+PdATcgD4YmdB7X5u0J801DD0xN1tNm3WBLduCIpuW4zpIZNPaeb63wyE/wELsFdlcm/IDOAgDgULuwQfjgEJ+gg0U8hsMQv4EQ5C/wQDkMZg9eQpmTp4DsybPgxmTKfDy5OPpvxyHPdGZAPfkc7Twvb8TX5KUAD/IaXKJF3vyMpFelhfktMgzT65NHMX1RVnVxLCuSuG7axNHkarFDUGuq0Y1mduP45Yk9+CWW49pMlcwSeYLJsicwbNk3uAZMnfwhMwfPCIjgAfytSNjgD/IKOAX2YYBd+RbcI1wwAM5BAL3xRBI4I7sQ4EVWbpSE/gOTJslOhDMC2AAAAAASUVORK5CYII=" width="177" height="37"/>
+      </svg> -->
+      <hr class="line-break"></hr>
+      <div class="jobs">
+        <div class="individual-job">
+          <button id="500px-btn" class="link-effect">
+            <span class="border">
+              <h3>500px</h3>
+              <h4>Full-Stack Software Developer</h4>
+            </span>
+          </button>
+        </div>
+
+        <div class="individual-job">
+          <button id="joist-btn" class="link-effect">
+            <span class="border">
+              <h3>Joist</h3>
+              <h4>Full-Stack Software Engineer</h4>
+            </span>
+          </button>
+        </div>
+        <div class="individual-job">
+          <button id="davis-btn" class="link-effect">
+            <span class="border">
+              <h3>Davis <span style="position: relative;top:6px">+</span> Henderson</h3>
+              <h4>Software Developer</h4>
+            </span>
+          </button>
+        </div>
+        <div id="freelance-btn" class="individual-job">
+          <button class="link-effect">
+            <span class="border">
+              <h3>Freelance</h3>
+              <h4>Motion Graphic Designer</h4>
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+        <section class="Testimonial">
+  <div class="flex flex--center">
+    <div class="col-2">
+      <p>"Javier worked with our team to define the needed outcomes, did research, and tried different approaches to find solutions. He contributed significantly to the end product. He is driven, enthusiastic, adaptive, and an excellent team player. He is welcome to return should he desire."
+      <br>
+      <span class="position">Steve D'Agostinelli
+      <br>
+      CMS Dev Delivery Manager of D+H
+      </span>
+      </p>
+    </div>
+  </div>
+</section>
+        <a id="section" name='Projects'>
+<section class="Projects">
+  <h2><span class="gold">Some</span> Projects</h2>
+  <hr class="line-break"></hr>
+
+  <div class="project-one">
+    <a href="https://github.com/jitindodd/nym-in" target="_blank">
+      <div class="content">
+        <h2>nym-in</h2>
+        <h4>Winner for top Nymi Hack at UofTHacks</h4>
+        <h4>C++ , Qt , SQL</h4>
+        <p>Nym-In makes the ticket-purchasing process effortless by using Bluetooth/NFC biometric authentication when purchasing and authenticating tickets.</p>
+      </div>
+    </a>
+
+
+  </div>
+  <div class="flex flex--center">
+    <div class="col-50 project-two">
+      <a href="https://github.com/JavierR14/SimulCast" target="_blank">
+        <div class="content square web">
+          <h2>SimulCast (In Progress)</h2>
+          <h4>Ruby on Rails, Coffeescript, HTML + SASS</h4>
+          <p>A social media platform where users can explore, share, and discuss podcasts with others</p>
+        </div>
+      </a>
+    </div>
+    <div class="col-50 project-three">
+      <a href="https://github.com/JavierR14/Mandelbrot-Set" target="_blank">
+        <div class="content square mandel">
+          <h2>Mandlebrot</h2>
+          <h4>Python, pygame</h4>
+          <p>Graphic generation of the Mandelbrot Set. Optimized it to generate within 13 seconds</p>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="github">
+    <a href="https://github.com/JavierR14" target="_blank">GitHub</a>
+  </div>
+
+</section>
+        <a id="section" name='Contact'>
+<section class="Contact">
+  <div class="flex flex--center">
+    <div class="col-2">
+      <h2><span class="gold">Contact</span> Me</h2>
+      <hr class="line-break">
+      <a href="http://www.linkedin.com/in/jruizard" target="_blank"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a>
+      <a href="http://www.github.com/JavierR14" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+      <a href="http://www.twitter.com/Javier_Ruiz14" target="_blank"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>
+      <h3>Feel Free to <span style='color: #ad9365'>Say Hello!</span></h3>
+      <form id='contactform' method="POST">
+        <input type="text" name="name" placeholder="Name">
+        <input type="text" name="email" placeholder="Email">
+        <textarea class="message" name="message" placeholder="Your Message"></textarea>
+        <input type="submit" class="send" value="Send">
+        <input type="hidden" name="_next" value="//javierruiz.ca" />
+        <input type="text" name="_gotcha" style="display:none" />
+      </form>
+    </div>
+  </div>
+</section>
+	</div>
 </div>
+
+
+  </body>
+</html>

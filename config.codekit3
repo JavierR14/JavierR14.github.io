@@ -4,418 +4,17 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "AB8AB9BE-1426-4145-8862-9289B71D44B6"
+		"uuidString": "36849D0B-29D2-4A52-B4ED-F355DD6B3ECF"
 		}
 	],
 "creatorBuild": "25479",
 "files": {
-	"\/_config.yml": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/_config.yml",
-		"oF": 0
-		},
-	"\/_includes\/columns.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_includes\/columns.html",
-		"oF": 0
-		},
-	"\/_includes\/header.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_includes\/header.html",
-		"oF": 0
-		},
-	"\/_includes\/section-about.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_includes\/section-about.html",
-		"oF": 0
-		},
-	"\/_includes\/section-contact.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_includes\/section-contact.html",
-		"oF": 0
-		},
-	"\/_includes\/section-projects.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_includes\/section-projects.html",
-		"oF": 0
-		},
-	"\/_includes\/section-testimonial.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_includes\/section-testimonial.html",
-		"oF": 0
-		},
-	"\/_includes\/section-work.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_includes\/section-work.html",
-		"oF": 0
-		},
-	"\/_layouts\/default.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_layouts\/default.html",
-		"oF": 0
-		},
-	"\/_site\/assets\/css\/1-base\/fonts.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_site\/assets\/css\/1-base\/fonts.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/_site\/assets\/css\/1-base\/vars.sass": {
+	"\/assets\/css\/0-tools\/_reset.sass": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_site\/assets\/css\/1-base\/vars.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/_site\/assets\/css\/3-sections\/header.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_site\/assets\/css\/3-sections\/header.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/_site\/assets\/css\/3-sections\/home-about.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_site\/assets\/css\/3-sections\/home-about.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/_site\/assets\/css\/3-sections\/home-contact.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_site\/assets\/css\/3-sections\/home-contact.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/_site\/assets\/css\/3-sections\/home-projects.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_site\/assets\/css\/3-sections\/home-projects.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/_site\/assets\/css\/3-sections\/home-testimonial.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_site\/assets\/css\/3-sections\/home-testimonial.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/_site\/assets\/css\/3-sections\/home-work.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_site\/assets\/css\/3-sections\/home-work.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/_site\/assets\/css\/4-layouts\/home.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_site\/assets\/css\/4-layouts\/home.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/_site\/assets\/css\/main.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/_site\/assets\/css\/main-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/_site\/assets\/css\/main.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/css\/main.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/_site\/assets\/img\/break.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/assets\/img\/break.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/_site\/assets\/img\/earth-optimized.jpeg": {
-		"ft": 16384,
-		"iS": 1245841,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/img\/earth-optimized.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/assets\/img\/earth.jpeg": {
-		"ft": 16384,
-		"iS": 3940532,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/img\/earth.jpg",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_site\/assets\/img\/earth.jpg": {
-		"ft": 16384,
-		"iS": 3883637,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/img\/earth.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/assets\/img\/logo-jr.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/assets\/img\/logo-jr.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/_site\/assets\/img\/Mandel1.png": {
-		"ft": 32768,
-		"iS": 392659,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/img\/Mandel1.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_site\/assets\/img\/mountain.png": {
-		"ft": 32768,
-		"iS": 1955025,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/img\/mountain.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_site\/assets\/img\/nym-in.png": {
-		"ft": 32768,
-		"iS": 212209,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/img\/nym-in.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/assets\/img\/quote.png": {
-		"ft": 32768,
-		"iS": 5930,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/img\/quote.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_site\/assets\/img\/quote.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/assets\/img\/quote.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/_site\/assets\/img\/website.png": {
-		"ft": 32768,
-		"iS": 5427335,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/img\/website.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_site\/assets\/img\/work.png": {
-		"ft": 32768,
-		"iS": 1860420,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/img\/work.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_site\/assets\/js\/myjs-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/js\/myjs-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/_site\/assets\/js\/myjs.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/js\/myjs-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/_site\/assets\/js\/test-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/js\/test-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/_site\/assets\/js\/test.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/js\/test-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/_site\/assets\/resume_2016.pdf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/assets\/resume_2016.pdf",
-		"oF": 0
-		},
-	"\/_site\/CNAME": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/CNAME",
-		"oF": 0
-		},
-	"\/_site\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/index.html",
-		"oF": 0
-		},
-	"\/_site\/js\/common-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_site\/js\/common-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/_site\/js\/common.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_site\/js\/common-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/_site\/js\/common.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_site\/js\/common.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/_site\/README.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/README.html",
-		"oF": 0
-		},
-	"\/_site\/README.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/_site\/README.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"\/assets\/css\/0-tools\/_reset.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/css\/0-tools\/_reset.css",
@@ -592,6 +191,14 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/earth-optimized.jpg",
 		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/img\/earth-optimized.jpg": {
+		"ft": 16384,
+		"iS": 1242188,
+		"oA": 0,
+		"oAP": "\/assets\/img\/earth-optimized.jpg",
+		"oF": 0,
 		"opt": 0
 		},
 	"\/assets\/img\/earth.jpeg": {
@@ -622,15 +229,15 @@
 		},
 	"\/assets\/img\/Mandel1.png": {
 		"ft": 32768,
-		"iS": 392659,
+		"iS": 392108,
 		"oA": 0,
 		"oAP": "\/assets\/img\/Mandel1.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/mountain.png": {
 		"ft": 32768,
-		"iS": 1955025,
+		"iS": 1696970,
 		"oA": 0,
 		"oAP": "\/assets\/img\/mountain.png",
 		"oF": 0,
@@ -638,15 +245,23 @@
 		},
 	"\/assets\/img\/nym-in.png": {
 		"ft": 32768,
-		"iS": 212209,
+		"iS": 186120,
 		"oA": 0,
 		"oAP": "\/assets\/img\/nym-in.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/img\/podcast.png": {
+		"ft": 32768,
+		"iS": 2015971,
+		"oA": 0,
+		"oAP": "\/assets\/img\/podcast.png",
 		"oF": 0,
 		"opt": 0
 		},
 	"\/assets\/img\/quote.png": {
 		"ft": 32768,
-		"iS": 5930,
+		"iS": 5915,
 		"oA": 0,
 		"oAP": "\/assets\/img\/quote.png",
 		"oF": 0,
@@ -664,7 +279,7 @@
 		},
 	"\/assets\/img\/website.png": {
 		"ft": 32768,
-		"iS": 5427335,
+		"iS": 4150471,
 		"oA": 0,
 		"oAP": "\/assets\/img\/website.png",
 		"oF": 0,
@@ -672,7 +287,7 @@
 		},
 	"\/assets\/img\/work.png": {
 		"ft": 32768,
-		"iS": 1860420,
+		"iS": 1608133,
 		"oA": 0,
 		"oAP": "\/assets\/img\/work.png",
 		"oF": 0,
@@ -696,6 +311,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/assets\/js\/test-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/test-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/assets\/js\/test.js": {
 		"ft": 64,
 		"mi": 1,
@@ -705,10 +329,10 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/resume_2016.pdf": {
+	"\/assets\/Resume_2017.pdf": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/resume_2016.pdf",
+		"oAP": "\/assets\/Resume_2017.pdf",
 		"oF": 0
 		},
 	"\/build\/.gitignore": {
@@ -717,41 +341,11 @@
 		"oAP": "\/build\/.gitignore",
 		"oF": 0
 		},
-	"\/build\/build\/node_modules": {
-		"ft": 65536,
-		"oA": 2,
-		"oAP": "\/build\/build\/build\/node_modules",
-		"oF": 0
-		},
-	"\/build\/node_modules": {
-		"ft": 65536,
-		"oA": 2,
-		"oAP": "\/build\/build\/node_modules",
-		"oF": 0
-		},
 	"\/CNAME": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/CNAME",
 		"oF": 0
-		},
-	"\/gulpfile-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/gulpfile-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/gulpfile.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/gulpfile-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
 		},
 	"\/index.html": {
 		"ft": 8192,
@@ -795,20 +389,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/node_modules": {
-		"ft": 65536,
-		"oA": 2,
-		"oAP": "\/build\/node_modules",
-		"oF": 0
-		},
-	"\/package.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/package-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
 	"\/README.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -839,10 +419,11 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 506929112,
+	"creationDate": 506930867,
 	"displayValue": "Javier-Website",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets_brown"
+	"iconImageName": "brackets_gray",
+	"lastBuiltDate": 506931040
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
