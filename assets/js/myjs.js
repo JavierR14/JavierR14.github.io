@@ -50,29 +50,33 @@ $(function(){
 
   //MODAL WINDOWS ---------- NEEDS TO BE CHANGED WHEN UPDATED
   // Get the modal
+  var modal_thescore = document.getElementById('thescore-modal');
   var modal_500px = document.getElementById('px-modal');
   var modal_joist = document.getElementById('joist-modal');
   var modal_davis = document.getElementById('davis-modal');
   var modal_freelance = document.getElementById('freelance-modal');
 
   // Get the button that opens the modal
+  var btn_thescore = document.getElementById("thescore-btn");
   var btn_500px = document.getElementById("500px-btn");
   var btn_joist = document.getElementById("joist-btn");
   var btn_davis = document.getElementById("davis-btn");
   var btn_freelance = document.getElementById("freelance-btn");
 
   // Get the <span> element that closes the modal
+  var span_thescore = document.getElementById("close-5");
   var span_500px = document.getElementById("close-4");
   var span_joist = document.getElementById("close-1");
   var span_davis = document.getElementById("close-2");
   var span_freelance = document.getElementById("close-3");
 
   // When the user clicks on the button, open the modal
-
+  btn_thescore.onclick = function() {
+    modal_thescore.style.display = "block";
+  }
   btn_500px.onclick = function() {
     modal_500px.style.display = "block";
   }
-
   btn_joist.onclick = function() {
     modal_joist.style.display = "block";
   }
@@ -85,6 +89,9 @@ $(function(){
 
 
   // When the user clicks on <span> (x), close the modal
+  span_thescore.onclick = function() {
+    modal_thescore.style.display = "none";
+  }
   span_500px.onclick = function() {
     modal_500px.style.display = "none";
   }
@@ -101,6 +108,9 @@ $(function(){
 
   // When the user clicks anywhere outside of the modal, close it
   window.onclick = function(event) {
+      if (event.target == modal_thescore) {
+          modal_thescore.style.display = "none";
+      }
       if (event.target == modal_500px) {
           modal_500px.style.display = "none";
       }

@@ -175,6 +175,14 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/img\/aperture-vintage-313010-min.jpg": {
+		"ft": 16384,
+		"iS": 2603815,
+		"oA": 0,
+		"oAP": "\/assets\/img\/aperture-vintage-313010-min.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/img\/break.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -185,6 +193,14 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/assets\/img\/delf-renniel-rivera-273007.jpg": {
+		"ft": 16384,
+		"iS": 692974,
+		"oA": 0,
+		"oAP": "\/assets\/img\/delf-renniel-rivera-273007.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/img\/earth-optimized.jpeg": {
 		"ft": 16384,
 		"iS": 1245841,
@@ -193,27 +209,11 @@
 		"oF": 0,
 		"opt": 1
 		},
-	"\/assets\/img\/earth-optimized.jpg": {
+	"\/assets\/img\/falco-negenman-250175.jpg": {
 		"ft": 16384,
-		"iS": 1242188,
+		"iS": 824000,
 		"oA": 0,
-		"oAP": "\/assets\/img\/earth-optimized.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/img\/earth.jpeg": {
-		"ft": 16384,
-		"iS": 3940532,
-		"oA": 0,
-		"oAP": "\/assets\/img\/earth.jpg",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/assets\/img\/earth.jpg": {
-		"ft": 16384,
-		"iS": 3883637,
-		"oA": 0,
-		"oAP": "\/assets\/img\/earth.jpg",
+		"oAP": "\/assets\/img\/falco-negenman-250175.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -234,6 +234,14 @@
 		"oAP": "\/assets\/img\/Mandel1.png",
 		"oF": 0,
 		"opt": 1
+		},
+	"\/assets\/img\/messenger_bot.jpg": {
+		"ft": 16384,
+		"iS": 46454,
+		"oA": 0,
+		"oAP": "\/assets\/img\/messenger_bot.jpg",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/mountain.png": {
 		"ft": 32768,
@@ -276,6 +284,14 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/assets\/img\/thom-527.jpg": {
+		"ft": 16384,
+		"iS": 261084,
+		"oA": 0,
+		"oAP": "\/assets\/img\/thom-527.jpg",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/website.png": {
 		"ft": 32768,

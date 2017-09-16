@@ -249,8 +249,8 @@ body {
 
 .home-wrap header {
   height: 540px;
-  background-image: url(/assets/img/earth-optimized.jpeg);
-  background-position: center center;
+  background-image: url(/assets/img/falco-negenman-250175.jpg);
+  background-position: center top;
   background-size: cover;
   width: 100%;
   display: -webkit-box;
@@ -740,6 +740,8 @@ section.Work {
     color: #67C118; }
   section.Work #px-modal ul li:before {
     color: #ff6554; }
+  section.Work #thescore-modal ul li:before {
+    color: #000080; }
   section.Work a {
     text-decoration: none; }
   section.Work .individual-job {
@@ -1040,12 +1042,12 @@ section.Projects {
     height: 385px;
     transition: all 0.5s ease; }
   section.Projects .project-two {
-    background: url(/assets/img/podcast.png);
+    background: url(/assets/img/messenger_bot.jpg);
     background-size: cover;
     background-position: center center;
     left: 60px; }
   section.Projects .project-three {
-    background: url(/assets/img/Mandel1.png);
+    background: url(/assets/img/podcast.png);
     background-size: cover;
     background-position: center center; }
 

@@ -94,6 +94,24 @@
   <div class="flex flex--center">
     <div class="col-2">
       <!-- The Modal -->
+      <div id="thescore-modal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span id="close-5" class='close'>x</span>
+          <h2>theScore</h2>
+          <div class="modal-body">
+            <p>Software Engineer Intern<span style="margin: 0 7px; color: #ad9365">||</span> May 2017 - Aug 2017</p>
+            <ul>
+              <li>Added real-time tracking and visualization for Youtube, Instagram and Twitter content ingestion providing product reliability and insights for directors</li>
+              <li>Created and maintained a third party content management system automating over 50% of the content team’s manual work</li>
+              <li>Paired on the redesign of the API and model architecture across 3 repositories</li>
+              <li>Built a fully customizable content alert notification system to be able to manually send out custom push notifications to end-users</li>
+              <li>Worked with React, Redux, and Ruby on Rails</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
       <div id="px-modal" class="modal">
         <!-- Modal content -->
         <div class="modal-content">
@@ -169,10 +187,19 @@
       <hr class="line-break"></hr>
       <div class="jobs">
         <div class="individual-job">
+          <button id="thescore-btn" class="link-effect">
+            <span class="border">
+              <h3>theScore</h3>
+              <h4>Software Engineer Intern</h4>
+            </span>
+          </button>
+        </div>
+
+        <div class="individual-job">
           <button id="500px-btn" class="link-effect">
             <span class="border">
               <h3>500px</h3>
-              <h4>Full-Stack Software Developer</h4>
+              <h4>Full-Stack Software Developer Intern</h4>
             </span>
           </button>
         </div>
@@ -181,7 +208,7 @@
           <button id="joist-btn" class="link-effect">
             <span class="border">
               <h3>Joist</h3>
-              <h4>Full-Stack Software Engineer</h4>
+              <h4>Full-Stack Software Engineer Intern</h4>
             </span>
           </button>
         </div>
@@ -189,7 +216,7 @@
           <button id="davis-btn" class="link-effect">
             <span class="border">
               <h3>Davis <span style="position: relative;top:6px">+</span> Henderson</h3>
-              <h4>Software Developer</h4>
+              <h4>Software Developer Intern</h4>
             </span>
           </button>
         </div>
@@ -237,20 +264,20 @@
   </div>
   <div class="flex flex--center">
     <div class="col-50 project-two">
+      <a href="https://github.com/JavierR14/gamedeals-messenger-bot" target="_blank">
+        <div class="content square mandel">
+          <h2>Gaming Deals Messenger Bot</h2>
+          <h4>Python, Flask, SQLAlchemy, PRAW</h4>
+          <p>A Facebook Messenger bot that notifies users of new gaming related deals in real-time according to their preferences</p>
+        </div>
+      </a>
+    </div>
+    <div class="col-50 project-three">
       <a href="https://github.com/JavierR14/SimulCast" target="_blank">
         <div class="content square web">
           <h2>SimulCast (In Progress)</h2>
           <h4>Ruby on Rails, Coffeescript, HTML + SASS</h4>
           <p>A social media platform where users can explore, share, and discuss podcasts with others</p>
-        </div>
-      </a>
-    </div>
-    <div class="col-50 project-three">
-      <a href="https://github.com/JavierR14/Mandelbrot-Set" target="_blank">
-        <div class="content square mandel">
-          <h2>Mandlebrot</h2>
-          <h4>Python, pygame</h4>
-          <p>Graphic generation of the Mandelbrot Set. Optimized it to generate within 13 seconds</p>
         </div>
       </a>
     </div>
